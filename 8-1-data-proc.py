@@ -53,5 +53,5 @@ axs.text(charge_time + discharge_time/2, np.max(volt_data)*0.5,
 axs.legend(loc='best', fontsize=10)
 
 # Show and save figure
-fig.savefig("graph.png")
+fig.savefig("graph.svg")
 plt.show()
